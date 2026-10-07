@@ -1,0 +1,4 @@
+# Free CPU deployment. The base-version constraint in the lock accepts +cpu.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu; sys_platform == "linux"
+-r requirements.lock

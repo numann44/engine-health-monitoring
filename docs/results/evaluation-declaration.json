@@ -1,0 +1,39 @@
+{
+  "bootstrap": 2000,
+  "conditions": [
+    "clean",
+    "missing1",
+    "noise025",
+    "stuck10",
+    "missing3",
+    "noise050",
+    "bias_plus",
+    "bias_minus"
+  ],
+  "registry_sha256": "2b206b1a1eabc4281b1743d9a561aa23fb97f0652e5af8e7854b184b12fd4e2a",
+  "selection": "none; all models fixed before test outcomes",
+  "source": {
+    "configs/study_v1.json": "626942b37dbcffa7595a53ae7b17ca863ad642d2c5a6b05217ed1494aa638a39",
+    "pyproject.toml": "89c405061db50da4c186ccf01caed9bdd82d899e918b6e5c993cb6ae418f2c14",
+    "requirements.lock": "e5a50cc9f7dc9c64a9ba57a27db86376509c493d5c5b37ba79528a948c5f3ea2",
+    "src/engine_health/__init__.py": "6c9d476c3454cf84b9235a5455fc7e71e060fe58423a7f1f953167a43995ac96",
+    "src/engine_health/cli.py": "17303d9491966605338ae441509a37c83393b0d6e765bd03bb1428960bae6dce",
+    "src/engine_health/common.py": "cad0cc44fbe85841323ddbfda8ba5019b15a5251619e8244d15ec41a6fb18800",
+    "src/engine_health/data/__init__.py": "0129ed78cad2ddf76d4250daa5fbbb8305cc6eed7e5a51cb32639dbfc86f27f5",
+    "src/engine_health/data/cmapss.py": "7d4582f22e967b95fbb0d430050b237671e3b73a1f4b26ec1b1d38527a33e1ea",
+    "src/engine_health/evaluation/__init__.py": "05f2536e58eef8e05a6eac9fdd97bd4053c8ab2ec0dfe6cf14330697e49d1b2d",
+    "src/engine_health/evaluation/metrics.py": "f9327d7e4c016eefe5506d54bf8c673fd315abad5a385f27bb48469832328e14",
+    "src/engine_health/evaluation/report.py": "6e3c0a23f2ac735ae61063aaf747272fa1bf2b9984eba39d00585eacd86cdd99",
+    "src/engine_health/evaluation/study.py": "6ef1c18efd1729fa6d1adec6e0ac590126bf522b3159042c2dd0a8d352becb34",
+    "src/engine_health/inference/__init__.py": "dae01d8076c30f8b0543543f8db3bc4ecf57a5a7364bbe885ad606b5573ebc27",
+    "src/engine_health/inference/release.py": "38713596c0257397542bb810c0b031e2934f2a030e37a90b036a8956ad0812b7",
+    "src/engine_health/models/__init__.py": "ba626c128491a983ba5523decc2fd82ef46707324c1d8413044effae64cbb2f3",
+    "src/engine_health/preprocessing/__init__.py": "9ead6aa6ddf3ee1a01264c1d98ab76b72b7b85b460a1178f33c80b8fc48f6c9c",
+    "src/engine_health/preprocessing/stress.py": "5d888aca7bd3741cd192898d04c2ca7b055a8498cecece5ed7d3d70a7e00b7f5",
+    "src/engine_health/training/__init__.py": "246dbdd5cea5a39d6380866013d0e8fb7dcc0610623effe12a4231bec3f64730",
+    "src/engine_health/training/study.py": "82570f2d795bc4bcecc4cf31603467f7368905a22035acbba269c474c4e1e319",
+    "src/engine_health/training/train.py": "b38c8967da440c44fcef3b986e9ea543dbaa4a6994e5c56fab9781b8c33b24b0"
+  },
+  "target": "uncapped final-observation RUL cycles",
+  "test_role": "official held-out test for this preregistered study"
+}

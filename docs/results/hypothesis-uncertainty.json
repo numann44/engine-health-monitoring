@@ -1,0 +1,57 @@
+{
+  "interval": "percentile 95%; no multiplicity adjustment",
+  "repetitions": 2000,
+  "role": "Descriptive uncertainty; does not select, tune or redefine the frozen point criterion",
+  "seed": 20261007,
+  "subsets": {
+    "FD001": {
+      "clean_rmse_increase_ci95": [
+        -0.06259927514057277,
+        -0.003065076758247938
+      ],
+      "engines": 100,
+      "mild_rmse_reduction_ci95": [
+        0.017084267189465575,
+        0.0791989967249872
+      ],
+      "point_target_met": false
+    },
+    "FD002": {
+      "clean_rmse_increase_ci95": [
+        -0.07103152594833508,
+        -0.008431395679754684
+      ],
+      "engines": 259,
+      "mild_rmse_reduction_ci95": [
+        0.019424055801732586,
+        0.07837863768514833
+      ],
+      "point_target_met": false
+    },
+    "FD003": {
+      "clean_rmse_increase_ci95": [
+        -0.0138674761821392,
+        0.0302085342326447
+      ],
+      "engines": 100,
+      "mild_rmse_reduction_ci95": [
+        -0.048980842320676655,
+        0.011057965921530714
+      ],
+      "point_target_met": false
+    },
+    "FD004": {
+      "clean_rmse_increase_ci95": [
+        0.022326932569202696,
+        0.15082574895791284
+      ],
+      "engines": 248,
+      "mild_rmse_reduction_ci95": [
+        -0.10708454650471569,
+        0.008947773739968797
+      ],
+      "point_target_met": false
+    }
+  },
+  "unit": "engine"
+}

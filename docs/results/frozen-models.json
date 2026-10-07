@@ -1,0 +1,368 @@
+{
+  "declaration_digest": "be499acbab96d4119c9c135e40d2bbdb36f572f848d2c313bb20ce970c33cccc",
+  "digest": "86f336a0ff53395428230630861aa34cfd12e5c1db59d1ee3e69f194b40841b7",
+  "frozen_at": "2026-10-07T12:09:03.016703+00:00",
+  "schema": 1,
+  "subsets": {
+    "FD001": {
+      "default": "boost",
+      "models": {
+        "boost": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD001/boost-63/model.joblib",
+              "sha256": "1f5bedb83a4fb64ab23811970eebaa7c5f5a7580b1424f9d642a94188fd99e79"
+            }
+          ],
+          "cpu_latency_ms": 0.5790830000478309,
+          "family": "boost",
+          "id": "88315093d452f27e8d1abcb7d8ce110095a50525f6378b793e4ef29413207b42",
+          "subset": "FD001",
+          "validation_score": 26.841552812116518
+        },
+        "gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD001/gru-seed42/selected.pt",
+              "sha256": "9002433011add2976d714c29f0a0686cde59014218e14d7c6ff3189a4cefaa1e"
+            },
+            {
+              "path": "outputs/study-v1/FD001/gru-seed43/selected.pt",
+              "sha256": "964ebf0baee4820e76cf12a1647765ff10352128fe9a1eb75cde407cc4598d00"
+            },
+            {
+              "path": "outputs/study-v1/FD001/gru-seed44/selected.pt",
+              "sha256": "5a7e1c37c081cdde6ea942a431243263fd74c1b4426d37590e90826046443c69"
+            }
+          ],
+          "cpu_latency_ms": 1.1238750000757136,
+          "family": "gru",
+          "id": "47f87dbc7a77a2ad313b4b31b41e0193fbd6cfa91f024abd1cfbcb3a156015e5",
+          "subset": "FD001",
+          "validation_score": 28.34373919792723
+        },
+        "mean": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD001/mean-0/model.joblib",
+              "sha256": "8b781a7fb1a9b206a1408ed93b8b9f53a73047b4053580e1666c45182438b3ad"
+            }
+          ],
+          "cpu_latency_ms": 0.027646000035019824,
+          "family": "mean",
+          "id": "535f15d9b6b6c24d8246a6e9daa453256b05950d492b18a3eda29bb57c50abbb",
+          "subset": "FD001",
+          "validation_score": 60.6969356273976
+        },
+        "ridge": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD001/ridge-10.0/model.joblib",
+              "sha256": "d720e64f4e4ecb91073bb5575007406b41263a42c9ffde065c6776c28552843e"
+            }
+          ],
+          "cpu_latency_ms": 0.11531249992913217,
+          "family": "ridge",
+          "id": "1d59b7e18d3f24752d71764d2ab58274badb9d99793e9a54da3e79d383513af4",
+          "subset": "FD001",
+          "validation_score": 33.15785958866566
+        },
+        "robust_gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD001/robust_gru-seed42/selected.pt",
+              "sha256": "de90e56003735075baa7dd5f04c6e2acf4d33dae9afb52b36b2e86153979aac1"
+            },
+            {
+              "path": "outputs/study-v1/FD001/robust_gru-seed43/selected.pt",
+              "sha256": "70e1ffe3e59c2b649c11e1de99d2dbc3de34fa18cdaf02c0b10b161d0fd7c706"
+            },
+            {
+              "path": "outputs/study-v1/FD001/robust_gru-seed44/selected.pt",
+              "sha256": "4402f4127450c91372579db2f645a9c836187128fdb3c791477a66c6e21c0984"
+            }
+          ],
+          "cpu_latency_ms": 1.1150829998314293,
+          "family": "robust_gru",
+          "id": "050a219667bcd1c6ac63ce68724d4ac2a93514a16fe3ed96270edfef79d06a17",
+          "subset": "FD001",
+          "validation_score": 28.25866727964753
+        }
+      },
+      "preprocessor": {
+        "path": "outputs/study-v1/FD001/preprocessor.json",
+        "sha256": "3b5e2e0345cd0bef04bec0dd80e0832e2c1ee206b18a891ce868c80c29709066"
+      }
+    },
+    "FD002": {
+      "default": "gru",
+      "models": {
+        "boost": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD002/boost-31/model.joblib",
+              "sha256": "195d18db0d56ad8c9d6cc34c5b5371dd12e13d0dfd460c833b2f395e5a784ac1"
+            }
+          ],
+          "cpu_latency_ms": 0.6462084998020146,
+          "family": "boost",
+          "id": "40ac2bced09889676bbd10ec477ab4e8700269983efd74b7b83f7af45e1a4bfb",
+          "subset": "FD002",
+          "validation_score": 26.18592655511913
+        },
+        "gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD002/gru-seed42/selected.pt",
+              "sha256": "bb971147075965d1ca00f0d06fd719ecfc6a2c22c953839dd5e1d99ea94e02e6"
+            },
+            {
+              "path": "outputs/study-v1/FD002/gru-seed43/selected.pt",
+              "sha256": "a8e0781ab353eea28d59dfafc842df89800ac5ebf402fec39f67aeeacf45c5c6"
+            },
+            {
+              "path": "outputs/study-v1/FD002/gru-seed44/selected.pt",
+              "sha256": "f2ea8d49195e181ed8383e385a70c884c026e67a1a2b714cb28c09da4c0a0ed1"
+            }
+          ],
+          "cpu_latency_ms": 1.1321250003675232,
+          "family": "gru",
+          "id": "bf73a18a82835dbdb6ac1491da05966025ea51fd561e77904006a66ee2d5039b",
+          "subset": "FD002",
+          "validation_score": 25.674071696764983
+        },
+        "mean": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD002/mean-0/model.joblib",
+              "sha256": "b9f148a88a32a0f32429cc43c92944338d5e2ad26a98e09ed30da9987f6d32e4"
+            }
+          ],
+          "cpu_latency_ms": 0.028375000056257704,
+          "family": "mean",
+          "id": "43bc9bf0bdf7c235a5221525abee47f6db6ac9ffb0e72cacb901f85842d7d1d7",
+          "subset": "FD002",
+          "validation_score": 58.34756114065885
+        },
+        "ridge": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD002/ridge-10.0/model.joblib",
+              "sha256": "4df11768d92078f5ba33b63b12debfdb9b72962fd3afbba46c93ab9e9dfdcc8e"
+            }
+          ],
+          "cpu_latency_ms": 0.11995849990853458,
+          "family": "ridge",
+          "id": "06488fb11dab6efe76abced59b46cc50bb82dbff10a029b1bf50b1221fceb35f",
+          "subset": "FD002",
+          "validation_score": 33.02762588834641
+        },
+        "robust_gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD002/robust_gru-seed42/selected.pt",
+              "sha256": "a118d985421bb20d657bd2763a758059aa46bea41025a1794c5ee60a2d76987d"
+            },
+            {
+              "path": "outputs/study-v1/FD002/robust_gru-seed43/selected.pt",
+              "sha256": "06995d42d16143184b2df7c4a0d2b2f247d1f6c6eb26381bcf75663f58ab317a"
+            },
+            {
+              "path": "outputs/study-v1/FD002/robust_gru-seed44/selected.pt",
+              "sha256": "bbf3219bf8e10deae35b662cf0b7f2ec4e84668b19202ca871de8f05bc6f0256"
+            }
+          ],
+          "cpu_latency_ms": 1.1343954997755645,
+          "family": "robust_gru",
+          "id": "387e928dfb9b50abfe9d1243fe56f8f5a400fed52ce83017a49d85a5c7c709ef",
+          "subset": "FD002",
+          "validation_score": 25.84659295824909
+        }
+      },
+      "preprocessor": {
+        "path": "outputs/study-v1/FD002/preprocessor.json",
+        "sha256": "4ead60c0233dc3085f2e3e77eadeef4e7c3b6963973e4ca7f46bf1a3a929da05"
+      }
+    },
+    "FD003": {
+      "default": "robust_gru",
+      "models": {
+        "boost": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD003/boost-15/model.joblib",
+              "sha256": "3462f2131d37a5c382531a15e6706ae129bf3d679bcd7355d13f89e5cdc79152"
+            }
+          ],
+          "cpu_latency_ms": 0.5773329999101406,
+          "family": "boost",
+          "id": "9a5c83cc08adba856f8fed0247362f51d5448d0385fdae62adb110d1a577ef03",
+          "subset": "FD003",
+          "validation_score": 42.728492292353536
+        },
+        "gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD003/gru-seed42/selected.pt",
+              "sha256": "0c774546ff5d93b8cd18079c0ab5e17e0206a39f3fda1ca73bd417a206f77772"
+            },
+            {
+              "path": "outputs/study-v1/FD003/gru-seed43/selected.pt",
+              "sha256": "cca4f53c536ed1c284b9303aa0c3a4c445d52f222352b20019964fea952d9814"
+            },
+            {
+              "path": "outputs/study-v1/FD003/gru-seed44/selected.pt",
+              "sha256": "c36aed542242f40c44d01d942fe2e96154d1c777778b0523db395893541f0c70"
+            }
+          ],
+          "cpu_latency_ms": 1.1516039999150962,
+          "family": "gru",
+          "id": "ffb9ce96d007f0b918b014226af42552acea94acccf7289b9b408c50f123fc35",
+          "subset": "FD003",
+          "validation_score": 39.332825566589555
+        },
+        "mean": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD003/mean-0/model.joblib",
+              "sha256": "b502b3b432032a78d0fec3f2fe9dee1fc2a046b67abed3f710ca00165354275c"
+            }
+          ],
+          "cpu_latency_ms": 0.028021000616718084,
+          "family": "mean",
+          "id": "aebed10e8c8d2542d5881b62ec998e571171b79c09f9290cbec455d72c8243c0",
+          "subset": "FD003",
+          "validation_score": 79.88873263443568
+        },
+        "ridge": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD003/ridge-10.0/model.joblib",
+              "sha256": "8897d493ebed1670ead1dd142c2f62b07f7b8c0377a030b4a4226ca43ab32207"
+            }
+          ],
+          "cpu_latency_ms": 0.11887449954883778,
+          "family": "ridge",
+          "id": "477eed9c9bdb6a1b94dc76461641f71189df79bc1de4bad4c9977ad0696316b2",
+          "subset": "FD003",
+          "validation_score": 53.21780821141384
+        },
+        "robust_gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD003/robust_gru-seed42/selected.pt",
+              "sha256": "aba1e4485790697be41506f6cea6c9b7e32791127ecb6d5fc1321ee6c5d06eed"
+            },
+            {
+              "path": "outputs/study-v1/FD003/robust_gru-seed43/selected.pt",
+              "sha256": "172120cb5126102d680608d8cfe861fade846e866ab55acd358a13f81de01928"
+            },
+            {
+              "path": "outputs/study-v1/FD003/robust_gru-seed44/selected.pt",
+              "sha256": "290f84bda12714b69403a5387db0544943a812a4531ca838083148b7aac6a2fb"
+            }
+          ],
+          "cpu_latency_ms": 1.1619789997894259,
+          "family": "robust_gru",
+          "id": "34c0b615bf5e1c846e92733c3fa3aea2295dfaa1d5936641dfff2a13d12b6dbe",
+          "subset": "FD003",
+          "validation_score": 38.947008101712214
+        }
+      },
+      "preprocessor": {
+        "path": "outputs/study-v1/FD003/preprocessor.json",
+        "sha256": "93c7692f71161cccce1b40413e152f66058b7504687f47fa3c5e00cbe3ccec8e"
+      }
+    },
+    "FD004": {
+      "default": "robust_gru",
+      "models": {
+        "boost": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD004/boost-15/model.joblib",
+              "sha256": "f2c4fb87cc7f01d0f54728cf93741dcbbd9ea478843c44e774673e85bf4ee4da"
+            }
+          ],
+          "cpu_latency_ms": 0.5898749996049446,
+          "family": "boost",
+          "id": "ea674633aacb2fe5c08eabe46016f4d739c1d94b05971bcdf4e8cc8b6f508fea",
+          "subset": "FD004",
+          "validation_score": 44.381566038282195
+        },
+        "gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD004/gru-seed42/selected.pt",
+              "sha256": "97ca2617f3015c9a4c968fd6367bb3344aa87250f1d899f5c3aea429e4049536"
+            },
+            {
+              "path": "outputs/study-v1/FD004/gru-seed43/selected.pt",
+              "sha256": "a9c85861ddcdf09b13f700925e8d011ec0c45f6dc675e9f5fb540d4029469c7a"
+            },
+            {
+              "path": "outputs/study-v1/FD004/gru-seed44/selected.pt",
+              "sha256": "c3c34f75b782c0141c4ba1558e32573212415a22304c92f1c77173ea030b571d"
+            }
+          ],
+          "cpu_latency_ms": 1.1322709997330094,
+          "family": "gru",
+          "id": "82caeb97c74e46c0b902aa4c91387cc35598e3584298f1f3f9b7a77e9ef39240",
+          "subset": "FD004",
+          "validation_score": 40.48688664596613
+        },
+        "mean": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD004/mean-0/model.joblib",
+              "sha256": "8cff82153c12d33ecaf2438e5add9ac05e51e19f515b64e60f9899eca3c10754"
+            }
+          ],
+          "cpu_latency_ms": 0.028667000151472166,
+          "family": "mean",
+          "id": "3468f329f3a64ecac6c9a3f649d3b87cb14c0227644bbec6be2f3f31fb337aa2",
+          "subset": "FD004",
+          "validation_score": 75.6726767483235
+        },
+        "ridge": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD004/ridge-10.0/model.joblib",
+              "sha256": "5b57cd317dbfbd41d7cf8be9d39195c804f76086d6e00c22f9441922f5fb5768"
+            }
+          ],
+          "cpu_latency_ms": 0.12358400044831797,
+          "family": "ridge",
+          "id": "51fbabfaf5cef86526afd75a4103c50198bafaeb81b96af11598e7b39512d016",
+          "subset": "FD004",
+          "validation_score": 52.72941213230842
+        },
+        "robust_gru": {
+          "assets": [
+            {
+              "path": "outputs/study-v1/FD004/robust_gru-seed42/selected.pt",
+              "sha256": "d275c3c08d44d89d0e3cb1a79c3fc586d5a14528d9ba63a83bfa691d1df4506e"
+            },
+            {
+              "path": "outputs/study-v1/FD004/robust_gru-seed43/selected.pt",
+              "sha256": "f5e2f9acdb59b3f6738c2123ba7878446fc96a3fa1c233b4f752872208a2ac1f"
+            },
+            {
+              "path": "outputs/study-v1/FD004/robust_gru-seed44/selected.pt",
+              "sha256": "0fb4eb64d42f8b15f68156b7ef9628a8636ac8d11e7eea6d916ee3e2188b2478"
+            }
+          ],
+          "cpu_latency_ms": 1.159853999979532,
+          "family": "robust_gru",
+          "id": "ecb8046a0d9ba82d24e4da09a942c4157d5cc8d5b41c0a715c34a6e6d8cfa98e",
+          "subset": "FD004",
+          "validation_score": 40.09340517288522
+        }
+      },
+      "preprocessor": {
+        "path": "outputs/study-v1/FD004/preprocessor.json",
+        "sha256": "609e61a6988a2121ae13661d5a99ecd6ad8f43aedcd416deab84cae92bea8293"
+      }
+    }
+  }
+}

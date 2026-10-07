@@ -1,0 +1,53 @@
+{
+  "benchmark": {
+    "device": "cpu",
+    "median_ms": 0.8146455002133735,
+    "model_id": "FD001:boost:88315093d452",
+    "p95_ms": 0.8869123500517162,
+    "scope": "single-engine preprocessing and inference; file read/model load excluded",
+    "trials": 30,
+    "warmups": 3
+  },
+  "exact_equal": true,
+  "portable_predict": {
+    "assets": [
+      "1f5bedb83a4fb64ab23811970eebaa7c5f5a7580b1424f9d642a94188fd99e79"
+    ],
+    "cycle": 31,
+    "history_length": 30,
+    "latency_ms": 4.699250000157917,
+    "missing_readings": 0,
+    "model_id": "FD001:boost:88315093d452",
+    "rul_cycles": 123.64732132734585,
+    "stress": {
+      "channel": null,
+      "condition": "clean",
+      "magnitude": null,
+      "seed": 20261007
+    },
+    "subset": "FD001",
+    "unit": 1,
+    "warnings": []
+  },
+  "study_predict": {
+    "assets": [
+      "1f5bedb83a4fb64ab23811970eebaa7c5f5a7580b1424f9d642a94188fd99e79"
+    ],
+    "cycle": 31,
+    "history_length": 30,
+    "latency_ms": 3.418667000005371,
+    "missing_readings": 0,
+    "model_id": "FD001:boost:88315093d452",
+    "rul_cycles": 123.64732132734585,
+    "stress": {
+      "channel": null,
+      "condition": "clean",
+      "magnitude": null,
+      "seed": 20261007
+    },
+    "subset": "FD001",
+    "unit": 1,
+    "warnings": []
+  },
+  "verified_at": "2026-10-07T12:12:02.989370+00:00"
+}

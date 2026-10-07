@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "name": "cmapss-sensor-robustness-v1",
+  "subsets": ["FD001", "FD002", "FD003", "FD004"],
+  "seeds": [42, 43, 44],
+  "families": ["gru", "robust_gru"],
+  "split_seed": 20261007,
+  "epochs": 100,
+  "patience": 15,
+  "batch": 128,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "huber_delta": 0.1,
+  "gradient_clip": 1.0,
+  "ridge_alphas": [0.1, 1.0, 10.0],
+  "boost_leaves": [15, 31, 63],
+  "bootstrap": 2000,
+  "device": "pilot",
+  "selection": "0.5 clean RMSE + 0.5 mean(missing1,noise025,stuck10) RMSE",
+  "target": "uncapped cycles; not hours; no lifetime or cycle counter as input",
+  "hypothesis": {"mild_rmse_reduction": 0.10, "max_clean_rmse_increase": 0.05}
+}

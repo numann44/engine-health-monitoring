@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the original NASA C-MAPSS dataset separately."
+title: "Engine Health Monitoring: Remaining Life under Sensor Degradation"
+type: software
+authors:
+  - family-names: Sahin
+    given-names: Ahmet Numan
+repository-code: "https://github.com/numann44/engine-health-monitoring"
+license: MIT

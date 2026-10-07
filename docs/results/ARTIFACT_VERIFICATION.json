@@ -1,0 +1,3372 @@
+{
+  "checks": [
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.0517578125e-05,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD001",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 2.86102294921875e-06,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 9.5367431640625e-07,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 9.5367431640625e-07,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 9.5367431640625e-07,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 9.5367431640625e-07,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 2.86102294921875e-06,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 3.0517578125e-05,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 130
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD002",
+      "unit": 259
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.1444091796875e-05,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 51
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 5.7220458984375e-06,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD003",
+      "unit": 100
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "boost",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 3.0517578125e-05,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 3.0517578125e-05,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "noise025",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing3",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "noise050",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "mean",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "missing1",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "noise025",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "missing3",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_plus",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "bias_minus",
+      "family": "ridge",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 7.62939453125e-06,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 1.9073486328125e-06,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 1
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 3.0517578125e-05,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 1.52587890625e-05,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 125
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "clean",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing1",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "noise025",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "stuck10",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "missing3",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 3.814697265625e-06,
+      "condition": "noise050",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_plus",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    },
+    {
+      "absolute_difference_cycles": 0.0,
+      "condition": "bias_minus",
+      "family": "robust_gru",
+      "subset": "FD004",
+      "unit": 248
+    }
+  ],
+  "fits": 52,
+  "max_absolute_difference_cycles": 3.0517578125e-05,
+  "neural_runs": 24,
+  "note": "Local artifact integrity and common inference parity. This is not a hosted-browser or Linux execution check.",
+  "registry_sha256": "31cea7eb65594fa2f22a029a9ec10ae74fa881840a053c20929e1708dc89d829",
+  "scalar_to_batch_parity_cases": 480,
+  "verified_at": "2026-10-07T12:09:47.096246+00:00",
+  "verified_bundle_files": 42
+}
