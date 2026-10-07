@@ -4,7 +4,9 @@
 
 From-scratch remaining-life prediction on four NASA C-MAPSS subsets, with controlled sensor failures, engine-level evaluation and an interactive experiment panel.
 
-[Experiment protocol](docs/experiment-protocol.md) · [Data audit](docs/data.md) · [Architecture](docs/architecture.md) · [Reproduce](docs/reproduction.md)
+![Engine Health Monitoring — real dashboard](docs/images/demo-desktop.jpg)
+
+[Measured results](docs/results/STUDY_V1.md) · [Release v0.1.0](https://github.com/numann44/engine-health-monitoring/releases/tag/v0.1.0) · [Experiment protocol](docs/experiment-protocol.md) · [Data audit](docs/data.md) · [Architecture](docs/architecture.md) · [Reproduce](docs/reproduction.md)
 
 ![Checks](https://github.com/numann44/engine-health-monitoring/actions/workflows/checks.yml/badge.svg)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-142D42)

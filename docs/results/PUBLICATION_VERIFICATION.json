@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-07T12:30:06.894417+00:00",
+  "release": "https://github.com/numann44/engine-health-monitoring/releases/tag/v0.1.0",
+  "tag": "v0.1.0",
+  "commit": "9cf2c08b4642a00966cf20d197d8735236216fed",
+  "assets_verified_from_public_downloads": [
+    {
+      "name": "engine-health-v0.1.0.zip",
+      "sha256": "e47bf5465c282221e699b7593bfe5e72d78b3334dcb18f0ffd5c2c53af5506ef",
+      "size": 5985688,
+      "url": "https://github.com/numann44/engine-health-monitoring/releases/download/v0.1.0/engine-health-v0.1.0.zip"
+    },
+    {
+      "name": "study-v1-frozen-source.tar.gz",
+      "sha256": "89b12d39885a0cb89dfaa11213e3825d9e1db717658d9408c1ec78f2e4c8c8fe",
+      "size": 43590,
+      "url": "https://github.com/numann44/engine-health-monitoring/releases/download/v0.1.0/study-v1-frozen-source.tar.gz"
+    }
+  ],
+  "linux_ci": {
+    "run_id": 37621126425,
+    "conclusion": "success"
+  },
+  "local_tests": 35,
+  "restored_source_files_match_original_declaration": true
+}
