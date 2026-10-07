@@ -78,7 +78,7 @@ def line_chart(cycles, predicted, actual=None, family="robust_gru"):
 try:
     folder, registry, results = resources()
 except (OSError, ValueError, KeyError) as exc:
-    st.info("The declared study is in progress. Verified model assets will appear here after all four selections and their evaluation are complete.")
+    st.info("Verified model assets are temporarily unavailable. Please retry or inspect the published release; no substitute predictions are displayed.")
     st.caption(str(exc))
     st.link_button("Read the experiment protocol", "https://github.com/numann44/engine-health-monitoring/blob/main/docs/experiment-protocol.md")
     st.stop()

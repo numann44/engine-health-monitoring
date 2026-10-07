@@ -2,7 +2,7 @@
 
 Repository: `numann44/engine-health-monitoring`. Entrypoint: `app/streamlit_app.py`. Runtime: **Python 3.12**, CPU. A working public URL is recorded only after a real deployment.
 
-Community Cloud discovers the root `requirements.txt`, which includes the exact lock and selects the official PyTorch CPU wheel on Linux. This avoids installing unused CUDA libraries. The app imports the repository's `src` package directly; no shell bootstrap, secrets, database, REST server or cloud training job is required. The [Streamlit dependency documentation](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies) explains dependency-file discovery and Python-version alignment.
+Community Cloud discovers the root `requirements.txt`, which includes a separate deployment lock and selects the checksum-pinned official PyTorch CPU wheel on Linux x86_64. This avoids installing unused CUDA libraries and avoids giving a secondary package index precedence over PyPI. The training lock is preserved unchanged. Community Cloud replaced PyArrow 25.0.1 because of its known server compatibility issue; deployment explicitly pins 24.0.0. Numerical package versions and saved models are unchanged. The app imports the repository's `src` package directly; no shell bootstrap, secrets, database, REST server or cloud training job is required. The [Streamlit dependency documentation](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies) explains dependency-file discovery and Python-version alignment.
 
 ## Model assets
 
