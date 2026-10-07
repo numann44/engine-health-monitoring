@@ -21,6 +21,6 @@ Registry SHA-256: `31cea7eb65594fa2f22a029a9ec10ae74fa881840a053c20929e1708dc89d
 
 `study-v1-frozen-source.tar.gz` preserves the exact original training/evaluation source before deployment conveniences were added.
 
-Frozen source SHA-256: `8a6ba5896a2fc5e4ecef92a09e8aec31048e05417a04558067c5aec45740431d`
+Frozen source SHA-256: `89b12d39885a0cb89dfaa11213e3825d9e1db717658d9408c1ec78f2e4c8c8fe`
 
 Code is MIT licensed; NASA data have separate source terms and are downloaded from the official source. See the README, measured report, failure analysis, model card and reproduction guide. Hosted deployment and Linux checks must be recorded separately; this file alone is not proof they passed.

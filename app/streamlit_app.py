@@ -130,10 +130,10 @@ result = engine.inspect(history, unit)
 actual = float(labels[unit-1]+last-cycle) if labels is not None else None
 
 m1, m2, m3, m4 = st.columns(4)
-m1.metric("Predicted remaining life", f"{result['rul_cycles']:.1f}", "cycles", delta_color="off")
-m2.metric("Actual remaining life", f"{actual:.0f}" if actual is not None else "Unknown", "cycles" if actual is not None else "No label supplied", delta_color="off")
-m3.metric("Prediction − actual", f"{result['rul_cycles']-actual:+.1f}" if actual is not None else "—", "cycles" if actual is not None else None, delta_color="off")
-m4.metric("Inference", f"{result['latency_ms']:.1f} ms", f"{result['history_length']}-cycle window", delta_color="off")
+m1.metric("Predicted RUL · cycles", f"{result['rul_cycles']:.1f}")
+m2.metric("Actual RUL · cycles", f"{actual:.0f}" if actual is not None else "Unknown")
+m3.metric("Error · cycles", f"{result['rul_cycles']-actual:+.1f}" if actual is not None else "—")
+m4.metric("Inference · ms", f"{result['latency_ms']:.1f}")
 st.caption("Actual values are retrospective reference labels, never model inputs. Positive error means an overly optimistic life estimate.")
 for warning in result["warnings"]:
     st.warning(warning)

@@ -5,8 +5,8 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .DS_Store
-data/
-outputs/
-dist/
-build/
+/data/
+/outputs/
+/dist/
+/build/
 .streamlit/secrets.toml
