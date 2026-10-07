@@ -1,0 +1,111 @@
+{
+  "checked_utc": "2026-10-07T12:41:42.168768+00:00",
+  "url": "https://numan-engine-health-monitoring.streamlit.app",
+  "published_source_commit": "99d318b8a8f55f111c5a5bf69a6d89f56480e0f3",
+  "deployment": "Community Cloud, main, app/streamlit_app.py, Python 3.12, free CPU",
+  "checks": {
+    "four_subset_defaults": true,
+    "all_three_views": true,
+    "example_upload_exact_parity": true,
+    "json_csv_png_stress_downloads": true,
+    "missing_sensor_count": 5,
+    "missing_sensor_prediction_cycles": 131.9891723659312,
+    "duplicate_cycle_error": "Cannot inspect this file: Each engine must have consecutive, increasing cycles without duplicates",
+    "one_cycle_history": "Left-padding warning displayed; finite prediction"
+  },
+  "hosted_parity_tolerance_cycles": 0.001,
+  "default_parity": [
+    {
+      "subset": "FD001",
+      "model_id": "FD001:boost:88315093d452",
+      "hosted_cycles": 123.64732132734585,
+      "absolute_local_difference_cycles": 0.0
+    },
+    {
+      "subset": "FD002",
+      "model_id": "FD002:gru:bf73a18a8283",
+      "hosted_cycles": 13.177162170410156,
+      "absolute_local_difference_cycles": 9.5367431640625e-07
+    },
+    {
+      "subset": "FD003",
+      "model_id": "FD003:robust_gru:34c0b615bf5e",
+      "hosted_cycles": 52.74519729614258,
+      "absolute_local_difference_cycles": 0.0
+    },
+    {
+      "subset": "FD004",
+      "model_id": "FD004:robust_gru:ecb8046a0d9b",
+      "hosted_cycles": 32.672733306884766,
+      "absolute_local_difference_cycles": 0.0
+    }
+  ],
+  "exports": {
+    "example": {
+      "path": "outputs/hosted-verification/example.json",
+      "sha256": "658e5fdf2e5466f55c8ac93a707b5f3ae00817a571deca9b30b043d1ab162c71"
+    },
+    "upload": {
+      "path": "outputs/hosted-verification/upload.json",
+      "sha256": "89fbcae0c1f91dae12c9f5478f1b2da733c8e0348ff2133630e85529838ff533"
+    },
+    "missing": {
+      "path": "outputs/hosted-verification/missing.json",
+      "sha256": "5d6e368dc635c0d1a7d589407ac0867069a722431ae200b69ac6f8880309f400"
+    },
+    "FD002": {
+      "path": "outputs/hosted-verification/FD002.json",
+      "sha256": "595acfc1ffdf171aa698edeb0819eeaad7b500d97455b838047d4a02d7651740"
+    },
+    "FD003": {
+      "path": "outputs/hosted-verification/FD003.json",
+      "sha256": "3762a996c0edc4d3c72690e83a442123c821c7fa178df43e20bb288e6f6d5395"
+    },
+    "FD004": {
+      "path": "outputs/hosted-verification/FD004.json",
+      "sha256": "5e892cf9ba3e8662fd47ba2bd6e564d1d5f568b40d8e33c7f5de17160e94badc"
+    },
+    "csv": {
+      "path": "outputs/hosted-verification/csv.csv",
+      "sha256": "192607a8c095c53ae9713dcd507d51f51c491caf205ee480f286ecc9753666d1"
+    },
+    "png": {
+      "path": "outputs/hosted-verification/png.png",
+      "sha256": "ec8dc00f2ba3f607f26aa5f594786ab5b1d9ca6c293a8f216f3e70624d5beede"
+    },
+    "stress": {
+      "path": "outputs/hosted-verification/stress.json",
+      "sha256": "a7aee93bc53f8dfbd26f78165aa2e6fa9e869f1e1b70d9154eb6af6154e065c4"
+    }
+  },
+  "linux_ci": {
+    "run": 37622321651,
+    "conclusion": "success"
+  },
+  "limitations": [
+    "Browser viewport checks are not physical-device tests.",
+    "Free hosting may sleep; first opening can wait for model and NASA downloads.",
+    "No real aircraft reliability claim."
+  ],
+  "responsive_checks": {
+    "local_desktop": [
+      1440,
+      1000
+    ],
+    "local_narrow": [
+      390,
+      844
+    ],
+    "hosted_desktop": [
+      1280,
+      720
+    ],
+    "hosted_narrow_dom": {
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "app_iframe_width": 390
+    },
+    "note": "Local narrow layout visually checked. Hosted narrow DOM sizing verified; screenshot capture scaling was inconsistent, so no reliable hosted mobile screenshot is asserted. No physical phone tested.",
+    "temporary_viewport_overrides_reset": true
+  }
+}

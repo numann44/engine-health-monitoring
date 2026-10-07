@@ -4,9 +4,9 @@
 
 From-scratch remaining-life prediction on four NASA C-MAPSS subsets, with controlled sensor failures, engine-level evaluation and an interactive experiment panel.
 
-![Engine Health Monitoring — real dashboard](docs/images/demo-desktop.jpg)
+![Engine Health Monitoring — real dashboard](docs/images/hosted-desktop.jpg)
 
-[Measured results](docs/results/STUDY_V1.md) · [Release v0.1.0](https://github.com/numann44/engine-health-monitoring/releases/tag/v0.1.0) · [Experiment protocol](docs/experiment-protocol.md) · [Data audit](docs/data.md) · [Architecture](docs/architecture.md) · [Reproduce](docs/reproduction.md)
+[Live demo](https://numan-engine-health-monitoring.streamlit.app) · [Measured results](docs/results/STUDY_V1.md) · [Release v0.1.0](https://github.com/numann44/engine-health-monitoring/releases/tag/v0.1.0) · [Experiment protocol](docs/experiment-protocol.md) · [Data audit](docs/data.md) · [Architecture](docs/architecture.md) · [Reproduce](docs/reproduction.md)
 
 ![Checks](https://github.com/numann44/engine-health-monitoring/actions/workflows/checks.yml/badge.svg)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-142D42)
@@ -49,7 +49,7 @@ Intervals resample engines 2,000 times. The robustness criterion compares the tw
 
 ## Interactive demo
 
-Three views share the same inference engine: **Explore an Engine**, **Sensor Stress Lab**, and **Benchmark & Evidence**. Upload the documented CSV format or use verified NASA examples; export predictions, model identities and plots. Run `streamlit run app/streamlit_app.py` locally. The public URL will be added after hosted behavior is verified.
+Three views share the same inference engine: **Explore an Engine**, **Sensor Stress Lab**, and **Benchmark & Evidence**. Upload the documented CSV format or use verified NASA examples; export predictions, model identities and plots. Run `streamlit run app/streamlit_app.py` locally. Open the [live demo](https://numan-engine-health-monitoring.streamlit.app). Actual hosted upload, export and prediction checks are recorded in [deployment evidence](docs/results/DEPLOYMENT_VERIFICATION.json).
 
 [CSV contract](docs/csv-format.md) · [Deployment checks](docs/deployment.md)
 
@@ -75,7 +75,7 @@ flowchart LR
 ```bash
 python3.12 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.lock
+pip install -r requirements.txt
 pip install --no-deps -e .
 engine-health download
 engine-health audit

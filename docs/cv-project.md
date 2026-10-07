@@ -1,6 +1,6 @@
 # CV project descriptions
 
-Use only with the repository and release links that are actually available. Do not call this a deployed aircraft maintenance system.
+[Repository](https://github.com/numann44/engine-health-monitoring) · [Live demo](https://numan-engine-health-monitoring.streamlit.app) · [Release](https://github.com/numann44/engine-health-monitoring/releases/tag/v0.1.0). This is simulation-data research, not a deployed aircraft maintenance system.
 
 ## English
 

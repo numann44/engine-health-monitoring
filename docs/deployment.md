@@ -27,3 +27,7 @@ Check each scenario and model, short history, slider changes, the four downloada
 After GitHub Linux CI and asset publication, deploy the public repository through [Community Cloud](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app). Explicitly select Python 3.12. Record the hosted URL, source commit, asset hash and actual browser checks. The hosted example, uploaded version of that example and downloaded JSON must match within documented floating-point tolerance. Inspect CSV rows and PNG content, stress controls and error behavior. A passing local test does not stand in for a hosted test.
 
 The release remains experimental simulation-data research even if every software check passes. Neither a success badge nor a stable stress response establishes real-aircraft reliability.
+
+## Published instance
+
+[Engine Health Monitoring](https://numan-engine-health-monitoring.streamlit.app) runs from `main` on free Community Cloud CPU. See [actual hosted verification](results/DEPLOYMENT_VERIFICATION.json) for example/upload parity, missing and invalid data, exports, all four selected defaults, and browser-test limitations.

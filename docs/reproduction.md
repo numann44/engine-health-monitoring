@@ -1,6 +1,6 @@
 # Reproduction
 
-Use Python 3.12 and `requirements.lock`. Install the project with `pip install --no-deps -e .`. Commands run from the repository root.
+Use Python 3.12. For the published app/CLI install `requirements.txt`; for exact original training use the archived study source and `requirements.lock`. Install the project with `pip install --no-deps -e .`. Commands run from the repository root.
 
 ```bash
 engine-health download
