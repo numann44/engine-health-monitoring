@@ -94,9 +94,10 @@ def main():
     readme = ROOT / 'README.md'
     text = readme.read_text()
     start = text.index('## Measured results')
-    end = text.index('## Architecture', start)
+    end = text.index('## Interactive demo', start) if '## Interactive demo' in text[start:] else text.index('## Architecture', start)
     text = text[:start]+'## Measured results\n\n'+summary+'\n\n'+text[end:]
-    start = text.index('> **Study in progress.')
+    marker = '> **Study in progress.' if '> **Study in progress.' in text else '> **Measured research release.'
+    start = text.index(marker)
     end = text.index('\n\n', start)
     text = text[:start]+'> **Measured research release.** All 52 declared fits and the fixed official-test evaluation are complete. Publication and hosted checks are tracked in [the delivery ledger](docs/DELIVERY.md). The hypothesis is reported separately for each subset; no test-driven retuning follows this release.'+text[end:]
     readme.write_text(text)
@@ -106,7 +107,7 @@ def main():
     counts = sum(int(x['hypothesis']['point_target_met']) for x in results['subsets'].values())
     cv = f'''# CV project descriptions
 
-Use only with the repository and release links that are actually available. Do not call this a deployed aircraft maintenance system.
+[Repository](https://github.com/numann44/engine-health-monitoring) · [Live demo](https://numan-engine-health-monitoring.streamlit.app) · [Release](https://github.com/numann44/engine-health-monitoring/releases/tag/v0.1.0). This is simulation-data research, not a deployed aircraft maintenance system.
 
 ## English
 
